@@ -1,0 +1,26 @@
+{
+    "name": "srsbiz/hide_folders",
+    "description": "Hide unwanted IMAP folder from subsrciption list.",
+    "type": "roundcube-plugin",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Radosław Kowalewski",
+            "email": "rk@srsbiz.pl"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "roundcube/plugin-installer": ">=0.1.3"
+    },
+	"extra": {
+        "roundcube": {
+            "min-version": "0.8"
+        }
+    }
+}
